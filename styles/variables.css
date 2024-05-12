@@ -8,4 +8,8 @@
     --accent-font: 'PressStart2P-Regular';
     --bg-image: repeating-linear-gradient(to left, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
     --shadow: #fff;
+    --button-text: #fff;
+    --heart-like: red;
+    --heart-body: #000000; 
+    --heart-contour: #000000;
 }

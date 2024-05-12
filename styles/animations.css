@@ -12,3 +12,48 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+@keyframes arrow {
+    from {
+      left: -14px;
+    }
+  
+    to {
+      left: -18px;
+    }
+  }
+
+  .like-icon {
+    inline-size: auto;
+    block-size: 31px;
+  }
+
+  .sparks {
+    opacity: 0;
+  }
+
+  .core {
+    fill: var(--heart-contour);
+    opacity: 0;
+    transition: opacity 0;
+    transition-delay: 0.03s;
+  } 
+
+  .main-body {
+    fill: var(--heart-contour);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .like-icon:hover .core {
+    opacity: 1;
+    transition: opacity 0.3s;
+    transition-delay: 0;
+  }
+      
+  .like-icon:hover .main-body {
+    opacity: 1;
+    transition: opacity 0.3s;
+    transition-delay: 0.05s;
+  }
+  
